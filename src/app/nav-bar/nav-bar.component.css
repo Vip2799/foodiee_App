@@ -1,0 +1,43 @@
+nav{
+    display: flex;
+    border: 2px solid ;
+    /* width: fit-content; */
+    /* height: 30px; */
+    text-align: center;
+    justify-content: space-between;
+    width: 700px;
+    position: relative;
+    /* left: 250px; */
+    top: 20px;
+    align-items: center;
+    /* border: 10px; */
+    border-radius: 20px;
+}
+#controller{
+    padding-bottom: 5px;
+}
+
+h2{
+    font-size: large;
+    /* border: 1px solid; */
+    position: relative;
+    top: 5px;
+    left: 5px;
+
+}
+#home:hover mat-icon{
+    color: blue;
+    /* box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.2); */
+}
+#fav:hover mat-icon{
+    color: red;
+    /* box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.2); */
+}
+#cart:hover mat-icon{
+    color: rgb(215, 215, 106);
+    /* box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.2); */
+}
+#profile:hover mat-icon{
+    color: blue;
+    /* box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.2); */
+}
